@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header{
+  margin: 10px 20px;
+}
+header h1{
+  display: inline-block;
+  font-size: 43px;
+}
+header img{
+  vertical-align:top;
+}
+main{
+  background-color: #f6f8f9;
+  padding:20px ;
+  
+}
+.container{
+  width: 75%;
+  margin:3px auto;
+  background-color:#fff;
+  padding: 15px 60px 10px;
+}
+.container button{
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10%;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.container .add-task{
+  background-color:#47adf1 ;
+  color: #fff;
+  
+}
+.container .add-section{
+  background-color: #fff;
+  color: #c9ced3;
+  border:1px solid #c9ced3;
+}
